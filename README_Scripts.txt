@@ -21,9 +21,10 @@ SWI_SM_DERIVATION: pixelwise derivation of soilmoistute from inputdata using ran
 --> output predictionraster (soilmoisture)
 
 filter_and_extract_insitu-data:
+--> output
 
 combine_filtered_insitu-data:
-
+--> output
 
 correlation_prediction_insitu: 
 --> extracts point values, at measuring stations, from prediction_raster
