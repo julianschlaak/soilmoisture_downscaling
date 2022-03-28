@@ -20,6 +20,11 @@ random forest: time-wise random forest (SWI ~ S1K0 + additional data
 SWI_SM_DERIVATION: pixelwise derivation of soilmoistute from inputdata using random forest
 --> output predictionraster (soilmoisture)
 
+filter_and_extract_insitu-data:
+
+combine_filtered_insitu-data:
+
+
 correlation_prediction_insitu: 
 --> extracts point values, at measuring stations, from prediction_raster
 --> correlation (insitu ~ extracted values)
