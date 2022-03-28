@@ -1,5 +1,9 @@
 following R scripts:
 
+yearly_ndvi_ndwi_gee: calculates annual average and standard deviation NDWI/NDVI for selected extent
+--> output: rasterdata (geotiff)
+
+
 preprocessing: crop, reproject, resample all data sets
 --> output: raster with same extents, pixelsizes and projections
 
